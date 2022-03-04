@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    max-width: 1440;
+    margin: 60px 200px;
+    border-radius: 50px;
+    
+}
+ 
+h1{
+    color: white;
+    font-family: 'Big Shoulders Display';
+    /* padding-top: 45px; */
+    padding-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* padding-top: 10px; */
+    padding-left: 20px;
+    line-height: 1.8;
+    font-family: 'Lexend Deca';
+    font-style: 700px;
+    color: white;
+}
+img{
+    width: 70px;
+}
+button{
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 90px 50px 10px;
+    
+    font-size: 20px;
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%) ;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+}
+.sedan-icon{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 500px;
+    height: 450px;
+    position: relative;
+}
+.suv-icon{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 500px;
+    height:  450px;
+    position: relative;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.luxury-icon{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+.sedan-btn{
+    color: hsl(31, 77%, 52%);
+}
+.sedan-btn:hover{
+    /* border: 1px solid black; */
+    outline: 2px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.suvs-btn{
+    color: hsl(184, 100%, 22%);
+}
+.suvs-btn:hover{
+    /* border: 1px solid black; */
+    outline: 2px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
+.luxury-btn:hover{
+    /* border: 1px solid black; */
+    outline: 2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
